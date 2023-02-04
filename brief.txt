@@ -1,0 +1,140 @@
+Here is a brief on the PE(RIPE_01b_000033.hex) for PIC24FJ64GB002: 
+ 
+First of all, for the RAM 
+ 
+0x80C: CRC16_TBL[0x00] (start of the CRC16 table) 
+0xA0A: CRC16_TBL[0xFF]    
+ 
+0xA0C: Command Head ( start of the command buffer) 
+0xA0E: Command Data 
+¡K 
+0xAD2: Response Head ( start of the response buffer) 
+0xAD4: Response Size 
+0xAD6: Response Data ( if there is any) 
+0xAD8: Calculated CRC Check Result ( it will be moved to 0xAD6 later) 
+ 
+0xADE: Start of the Stack (W15) 
+ 
+For the code, as usual, after the reset, it will go to a specific address, and set up the stack, then call _main(), the interrupt vectors in ivt is pointing to _default_isr(). 
+ 
+_main() 
+{ 
+        //compute the CRC16 results for 0x00 to 0xFF, 0x1021 is the polynomial 
+        compute_CRC16_table_0x1021();  
+        setup_SPI1(); 
+        while(1) 
+        { 
+                read_command();    //and enable SDO after read the data from SPI buffer 
+                process_command(); 
+        } 
+}  
+ 
+process_command() 
+{ 
+        //the command is stored at address 0xA0C 
+        //retrieve the command (Opcode) from 0xA0C 
+        switch(Opcode) 
+        { 
+                case 0: ...; break; 
+                case 1: ...; break; 
+                case 2: ...; break; 
+                ... 
+                default: ...; break; 
+        } 
+} 
+ 
+For each "case", it will call the corresponding subroutine.  After the command is processed, the subroutine will call (a) format_response_and_reply() or (b) pe_response(). 
+ 
+For query commands, such as QBLANK, QBLANK_PAGE, and QVER, they will call pe_response() directly. 
+ 
+The format_response_and_reply() will format the response first, then call pe_response(). 
+ 
+format_response_and_reply() 
+{ 
+            int RSP_HEAD = 0x00, RSP_SIZE, RSP_DATA1; 
+            int DxA0C = 0x00, DxA0E = 0x00, DxA0F = 0x00; 
+            int DxAD8 =0; //_CRC_RESULT? 
+            int W2, W0; 
+ 
+            //set RSP_HEAD 
+            int Opcode = (RSP_HEAD & 0xF000)>>12; 
+ 
+            if (Opcode == opcodePASS || Opcode == opcodeNACK) 
+            { 
+                RSP_HEAD &= 0xFF00; 
+            } 
+            else  //0x1D8:  (Opcode == opcodeFAIL) 
+            { 
+                RSP_HEAD = (RSP_HEAD & 0xFF00) | 0x01;  //<-- QE_CODE(1): Verify failed 
+            } 
+ 
+            W0 = (DxA0C >> 12) & 0x0F; 
+            W2 = W0 << 8; 
+ 
+            //set LastCmd 
+            RSP_HEAD = RSP_HEAD & 0xF0FF | W2; 
+ 
+            int last_cmd = (RSP_HEAD & 0xF00)>>8; 
+ 
+            //set Length 
+            if ( last_cmd == 0x1)  //READC Cmd 
+            { 
+                RSP_SIZE = (DxA0F & 0xFF) + 2; 
+            } 
+            else if (last_cmd == 0x2)  //READP Cmd 
+            { 
+                RSP_SIZE = (DxA0E>>1)*3 + 2; 
+                if ((RSP_SIZE & 0x01) != 0) RSP_SIZE++; 
+            } 
+            else if ( last_cmd == 0xC)  //CRC_CHECK Cmd //0x22C 
+            { 
+                RSP_SIZE = 3; 
+                RSP_DATA1 = DxAD8; 
+            } 
+            else 
+            { 
+                RSP_SIZE = 2;                 
+            } 
+ 
+            //0x246 
+           pe_response(); 
+} 
+ 
+pe_reponse() 
+{ 
+        clear_SPI1BUF(); 
+        disable_SPI(); 
+        enable_SPI(); 
+        clear_SPI1BUF(); 
+        disable_SPI(); 
+        delay_0x1E_Tcy(); 
+        enable_SPI();   //with 16-bit mode 
+ 
+        // the response data is at 0xAD2, number of data is at 0xAD4 
+        send_out_first_data();   // and the next data in W0 
+        wait_...();   // write to SPI1BUF after the previous data is read by the master. 
+        for( i = number_of_data-2; i>0; i-=2) 
+        { 
+                switch( last_cmd) 
+                { 
+                case PE1_READC:  ...; break;     // TBLRDL (device ID) 
+                case PE2_READP:  ...; break;     // TBLRDL 
+                case PEC_CRC_CHECK:  ...; break; 
+                     // CRC result is at 0xAD6 (set in SET_CRC_CHECK_HEAD) 
+                default: break; 
+                }  
+        } 
+        //close spi channel 
+        wait_...();   // wait for the last byte of data to be read by the master. 
+        clear_SPI1IF(); 
+        disable_SPI(); 
+        disable_SDO(); 
+        enable_SPI(): 
+        read_SPIBUF();  // to W1 
+} 
+ 
+Notes:
+   1. The functions in this document are just explanations for the process flow. 
+   2. The RIPE_01b_000033.txt is output from MPLAB X program memory.
+   3. The RIPE_01b_000033NG.s is the interpreted file, NG means not good for compilation. 
+   4. The interpreted assembly output is not verified or compiled yet.  There are also some ROM data after 0x7CA (shown in the original file, RIPE_01b_000033.txt). 

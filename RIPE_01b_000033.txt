@@ -1,0 +1,1026 @@
+                     Line         Address         Opcode         Label         DisAssy    
+               1              0000           040080                        GOTO 0x80      
+               2              0002           000080                        NOP            
+               3              0004           800120                        MOV 0x24, W0   
+               4              0006           800120                        MOV 0x24, W0   
+               5              0008           800120                        MOV 0x24, W0   
+               6              000A           800120                        MOV 0x24, W0   
+               7              000C           800120                        MOV 0x24, W0   
+               8              000E           800120                        MOV 0x24, W0   
+               9              0010           800120                        MOV 0x24, W0   
+               10             0012           800120                        MOV 0x24, W0   
+               11             0014           800120                        MOV 0x24, W0   
+               12             0016           800120                        MOV 0x24, W0   
+               13             0018           800120                        MOV 0x24, W0   
+               14             001A           800120                        MOV 0x24, W0   
+               15             001C           800120                        MOV 0x24, W0   
+               16             001E           800120                        MOV 0x24, W0   
+               17             0020           800120                        MOV 0x24, W0   
+               18             0022           800120                        MOV 0x24, W0   
+               19             0024           800120                        MOV 0x24, W0   
+               20             0026           800120                        MOV 0x24, W0   
+               21             0028           800120                        MOV 0x24, W0   
+               22             002A           800120                        MOV 0x24, W0   
+               23             002C           800120                        MOV 0x24, W0   
+               24             002E           800120                        MOV 0x24, W0   
+               25             0030           800120                        MOV 0x24, W0   
+               26             0032           800120                        MOV 0x24, W0   
+               27             0034           800120                        MOV 0x24, W0   
+               28             0036           800120                        MOV 0x24, W0   
+               29             0038           800120                        MOV 0x24, W0   
+               30             003A           800120                        MOV 0x24, W0   
+               31             003C           800120                        MOV 0x24, W0   
+               32             003E           800120                        MOV 0x24, W0   
+               33             0040           800120                        MOV 0x24, W0   
+               34             0042           800120                        MOV 0x24, W0   
+               35             0044           800120                        MOV 0x24, W0   
+               36             0046           800120                        MOV 0x24, W0   
+               37             0048           800120                        MOV 0x24, W0   
+               38             004A           800120                        MOV 0x24, W0   
+               39             004C           800120                        MOV 0x24, W0   
+               40             004E           800120                        MOV 0x24, W0   
+               41             0050           800120                        MOV 0x24, W0   
+               42             0052           800120                        MOV 0x24, W0   
+               43             0054           800120                        MOV 0x24, W0   
+               44             0056           800120                        MOV 0x24, W0   
+               45             0058           800120                        MOV 0x24, W0   
+               46             005A           800120                        MOV 0x24, W0   
+               47             005C           800120                        MOV 0x24, W0   
+               48             005E           800120                        MOV 0x24, W0   
+               49             0060           800120                        MOV 0x24, W0   
+               50             0062           800120                        MOV 0x24, W0   
+               51             0064           800120                        MOV 0x24, W0   
+               52             0066           800120                        MOV 0x24, W0   
+               53             0068           800120                        MOV 0x24, W0   
+               54             006A           800120                        MOV 0x24, W0   
+               55             006C           800120                        MOV 0x24, W0   
+               56             006E           800120                        MOV 0x24, W0   
+               57             0070           800120                        MOV 0x24, W0   
+               58             0072           800120                        MOV 0x24, W0   
+               59             0074           800120                        MOV 0x24, W0   
+               60             0076           800120                        MOV 0x24, W0   
+               61             0078           800120                        MOV 0x24, W0   
+               62             007A           800120                        MOV 0x24, W0   
+               63             007C           800120                        MOV 0x24, W0   
+               64             007E           800120                        MOV 0x24, W0   
+               65             0080           800120                        MOV 0x24, W0   
+               66             0082           800120                        MOV 0x24, W0   
+               67             0084           800120                        MOV 0x24, W0   
+               68             0086           800120                        MOV 0x24, W0   
+               69             0088           800120                        MOV 0x24, W0   
+               70             008A           800120                        MOV 0x24, W0   
+               71             008C           800120                        MOV 0x24, W0   
+               72             008E           800120                        MOV 0x24, W0   
+               73             0090           800120                        MOV 0x24, W0   
+               74             0092           800120                        MOV 0x24, W0   
+               75             0094           800120                        MOV 0x24, W0   
+               76             0096           800120                        MOV 0x24, W0   
+               77             0098           800120                        MOV 0x24, W0   
+               78             009A           800120                        MOV 0x24, W0   
+               79             009C           800120                        MOV 0x24, W0   
+               80             009E           800120                        MOV 0x24, W0   
+               81             00A0           800120                        MOV 0x24, W0   
+               82             00A2           800120                        MOV 0x24, W0   
+               83             00A4           800120                        MOV 0x24, W0   
+               84             00A6           800120                        MOV 0x24, W0   
+               85             00A8           800120                        MOV 0x24, W0   
+               86             00AA           800120                        MOV 0x24, W0   
+               87             00AC           800120                        MOV 0x24, W0   
+               88             00AE           800120                        MOV 0x24, W0   
+               89             00B0           800120                        MOV 0x24, W0   
+               90             00B2           800120                        MOV 0x24, W0   
+               91             00B4           800120                        MOV 0x24, W0   
+               92             00B6           800120                        MOV 0x24, W0   
+               93             00B8           800120                        MOV 0x24, W0   
+               94             00BA           800120                        MOV 0x24, W0   
+               95             00BC           800120                        MOV 0x24, W0   
+               96             00BE           800120                        MOV 0x24, W0   
+               97             00C0           800120                        MOV 0x24, W0   
+               98             00C2           800120                        MOV 0x24, W0   
+               99             00C4           800120                        MOV 0x24, W0   
+               100            00C6           800120                        MOV 0x24, W0   
+               101            00C8           800120                        MOV 0x24, W0   
+               102            00CA           800120                        MOV 0x24, W0   
+               103            00CC           800120                        MOV 0x24, W0   
+               104            00CE           800120                        MOV 0x24, W0   
+               105            00D0           800120                        MOV 0x24, W0   
+               106            00D2           800120                        MOV 0x24, W0   
+               107            00D4           800120                        MOV 0x24, W0   
+               108            00D6           800120                        MOV 0x24, W0   
+               109            00D8           800120                        MOV 0x24, W0   
+               110            00DA           800120                        MOV 0x24, W0   
+               111            00DC           800120                        MOV 0x24, W0   
+               112            00DE           800120                        MOV 0x24, W0   
+               113            00E0           800120                        MOV 0x24, W0   
+               114            00E2           800120                        MOV 0x24, W0   
+               115            00E4           800120                        MOV 0x24, W0   
+               116            00E6           800120                        MOV 0x24, W0   
+               117            00E8           800120                        MOV 0x24, W0   
+               118            00EA           800120                        MOV 0x24, W0   
+               119            00EC           800120                        MOV 0x24, W0   
+               120            00EE           800120                        MOV 0x24, W0   
+               121            00F0           800120                        MOV 0x24, W0   
+               122            00F2           800120                        MOV 0x24, W0   
+               123            00F4           800120                        MOV 0x24, W0   
+               124            00F6           800120                        MOV 0x24, W0   
+               125            00F8           800120                        MOV 0x24, W0   
+               126            00FA           800120                        MOV 0x24, W0   
+               127            00FC           800120                        MOV 0x24, W0   
+               128            00FE           800120                        MOV 0x24, W0   
+               129            0100           FA0000                        LNK #0x0       
+               130            0102           20ADEF                        MOV #0xADE, W15
+               131            0104           227F00                        MOV #0x27F0, W0
+               132            0106           880100                        MOV W0, SPLIM  
+               133            0108           000000                        NOP            
+               134            010A           070002                        RCALL 0x110    
+               135            010C           FA8000                        ULNK           
+               136            010E           060000                        RETURN         
+               137            0110           FA0000                        LNK #0x0       
+               138            0112           EB0000                        CLR W0         
+               139            0114           883A20                        MOV W0, CLKDIV 
+               140            0116           07026F                        RCALL 0x5F6    
+               141            0118           07022F                        RCALL 0x578    
+               142            011A           0701AE                        RCALL 0x478    
+               143            011C           07000B                        RCALL 0x134    
+               144            011E           37FFFD                        BRA 0x11A      
+               145            0120           F80034                        PUSH PSVPAG    
+               146            0122           781F88                        MOV W8, [W15++]
+               147            0124           200008                        MOV #0x0, W8   
+               148            0126           8801A8                        MOV W8, PSVPAG 
+               149            0128           78044F                        MOV [--W15], W8
+               150            012A           FA0000                        LNK #0x0       
+               151            012C           FE0000                        RESET          
+               152            012E           FA8000                        ULNK           
+               153            0130           F90034                        POP PSVPAG     
+               154            0132           064000                        RETFIE         
+               155            0134           FA0004                        LNK #0x4       
+               156            0136           805060                        MOV 0xA0C, W0  
+               157            0138           DE004C                        LSR W0, #12, W0
+               158            013A           FB8000                        ZE W0, W0      
+               159            013C           B90161                        MUL.SU W0, #1, W2
+               160            013E           BE8F02                        MOV.D W2, [W14]
+               161            0140           2000E0                        MOV #0xE, W0   
+               162            0142           200001                        MOV #0x0, W1   
+               163            0144           BE011E                        MOV.D [W14], W2
+               164            0146           510F80                        SUB W2, W0, [W15]
+               165            0148           598F81                        SUBB W3, W1, [W15]
+               166            014A           3E002F                        BRA GTU, 0x1AA 
+               167            014C           BE001E                        MOV.D [W14], W0
+               168            014E           016000                        BRA W0         
+               169            0150           37000E                        BRA 0x16E      
+               170            0152           37000D                        BRA 0x16E      
+               171            0154           37000C                        BRA 0x16E      
+               172            0156           370029                        BRA 0x1AA      
+               173            0158           370010                        BRA 0x17A      
+               174            015A           370013                        BRA 0x182      
+               175            015C           370026                        BRA 0x1AA      
+               176            015E           370013                        BRA 0x186      
+               177            0160           370024                        BRA 0x1AA      
+               178            0162           370013                        BRA 0x18A      
+               179            0164           370014                        BRA 0x18E      
+               180            0166           370017                        BRA 0x196      
+               181            0168           370018                        BRA 0x19A      
+               182            016A           370009                        BRA 0x17E      
+               183            016C           370012                        BRA 0x192      
+               184            016E           A88AD3                        BSET 0xAD3, #4 
+               185            0170           A9AAD3                        BCLR 0xAD3, #5 
+               186            0172           A9CAD3                        BCLR 0xAD3, #6 
+               187            0174           A9EAD3                        BCLR 0xAD3, #7 
+               188            0176           070020                        RCALL 0x1B8    
+               189            0178           37001D                        BRA 0x1B4      
+               190            017A           0700AE                        RCALL 0x2D8    
+               191            017C           37001B                        BRA 0x1B4      
+               192            017E           0700CE                        RCALL 0x31C    
+               193            0180           370019                        BRA 0x1B4      
+               194            0182           070107                        RCALL 0x392    
+               195            0184           370017                        BRA 0x1B4      
+               196            0186           070062                        RCALL 0x24C    
+               197            0188           370015                        BRA 0x1B4      
+               198            018A           070077                        RCALL 0x27A    
+               199            018C           370013                        BRA 0x1B4      
+               200            018E           070144                        RCALL 0x418    
+               201            0190           370011                        BRA 0x1B4      
+               202            0192           070145                        RCALL 0x41E    
+               203            0194           37000F                        BRA 0x1B4      
+               204            0196           070167                        RCALL 0x466    
+               205            0198           37000D                        BRA 0x1B4      
+               206            019A           0701FC                        RCALL 0x594    
+               207            019C           8856C0                        MOV W0, 0xAD8  
+               208            019E           A88AD3                        BSET 0xAD3, #4 
+               209            01A0           A9AAD3                        BCLR 0xAD3, #5 
+               210            01A2           A9CAD3                        BCLR 0xAD3, #6 
+               211            01A4           A9EAD3                        BCLR 0xAD3, #7 
+               212            01A6           070008                        RCALL 0x1B8    
+               213            01A8           370005                        BRA 0x1B4      
+               214            01AA           A88AD3                        BSET 0xAD3, #4 
+               215            01AC           A8AAD3                        BSET 0xAD3, #5 
+               216            01AE           A9CAD3                        BCLR 0xAD3, #6 
+               217            01B0           A9EAD3                        BCLR 0xAD3, #7 
+               218            01B2           070002                        RCALL 0x1B8    
+               219            01B4           FA8000                        ULNK           
+               220            01B6           060000                        RETURN         
+               221            01B8           FA0000                        LNK #0x0       
+               222            01BA           805691                        MOV 0xAD2, W1  
+               223            01BC           2F0000                        MOV #0xF000, W0
+               224            01BE           608080                        AND W1, W0, W1 
+               225            01C0           210000                        MOV #0x1000, W0
+               226            01C2           508F80                        SUB W1, W0, [W15]
+               227            01C4           320006                        BRA Z, 0x1D2   
+               228            01C6           805691                        MOV 0xAD2, W1  
+               229            01C8           2F0000                        MOV #0xF000, W0
+               230            01CA           608080                        AND W1, W0, W1 
+               231            01CC           230000                        MOV #0x3000, W0
+               232            01CE           508F80                        SUB W1, W0, [W15]
+               233            01D0           3A0003                        BRA NZ, 0x1D8  
+               234            01D2           EB4000                        CLR.B W0       
+               235            01D4           B7EAD2                        MOV.B WREG, 0xAD2
+               236            01D6           370002                        BRA 0x1DC      
+               237            01D8           B3C010                        MOV #0x1, W0   
+               238            01DA           B7EAD2                        MOV.B WREG, 0xAD2
+               239            01DC           805060                        MOV 0xA0C, W0  
+               240            01DE           DE004C                        LSR W0, #12, W0
+               241            01E0           FB8000                        ZE W0, W0      
+               242            01E2           60006F                        AND W0, #0xF, W0
+               243            01E4           DD0148                        SL W0, #8, W2  
+               244            01E6           805691                        MOV 0xAD2, W1  
+               245            01E8           2F0FF0                        MOV #0xF0FF, W0
+               246            01EA           608000                        AND W1, W0, W0 
+               247            01EC           700002                        IOR W0, W2, W0 
+               248            01EE           885690                        MOV W0, 0xAD2  
+               249            01F0           805691                        MOV 0xAD2, W1  
+               250            01F2           20F000                        MOV #0xF00, W0 
+               251            01F4           608080                        AND W1, W0, W1 
+               252            01F6           201000                        MOV #0x100, W0 
+               253            01F8           508F80                        SUB W1, W0, [W15]
+               254            01FA           3A0005                        BRA NZ, 0x206  
+               255            01FC           BFCA0F                        MOV.B 0xA0F, WREG
+               256            01FE           FB8000                        ZE W0, W0      
+               257            0200           E88000                        INC2 W0, W0    
+               258            0202           8856A0                        MOV W0, 0xAD4  
+               259            0204           370020                        BRA 0x246      
+               260            0206           805691                        MOV 0xAD2, W1  
+               261            0208           20F000                        MOV #0xF00, W0 
+               262            020A           608080                        AND W1, W0, W1 
+               263            020C           202000                        MOV #0x200, W0 
+               264            020E           508F80                        SUB W1, W0, [W15]
+               265            0210           3A000D                        BRA NZ, 0x22C  
+               266            0212           805070                        MOV 0xA0E, W0  
+               267            0214           D10000                        LSR W0, W0     
+               268            0216           B90063                        MUL.SU W0, #3, W0
+               269            0218           E88000                        INC2 W0, W0    
+               270            021A           8856A0                        MOV W0, 0xAD4  
+               271            021C           805070                        MOV 0xA0E, W0  
+               272            021E           600061                        AND W0, #0x1, W0
+               273            0220           E00400                        CP0.B W0       
+               274            0222           320011                        BRA Z, 0x246   
+               275            0224           8056A0                        MOV 0xAD4, W0  
+               276            0226           E88000                        INC2 W0, W0    
+               277            0228           8856A0                        MOV W0, 0xAD4  
+               278            022A           37000D                        BRA 0x246      
+               279            022C           805691                        MOV 0xAD2, W1  
+               280            022E           20F000                        MOV #0xF00, W0 
+               281            0230           608080                        AND W1, W0, W1 
+               282            0232           20C000                        MOV #0xC00, W0 
+               283            0234           508F80                        SUB W1, W0, [W15]
+               284            0236           3A0005                        BRA NZ, 0x242  
+               285            0238           200030                        MOV #0x3, W0   
+               286            023A           8856A0                        MOV W0, 0xAD4  
+               287            023C           8056C0                        MOV 0xAD8, W0  
+               288            023E           8856B0                        MOV W0, 0xAD6  
+               289            0240           370002                        BRA 0x246      
+               290            0242           200020                        MOV #0x2, W0   
+               291            0244           8856A0                        MOV W0, 0xAD4  
+               292            0246           07012A                        RCALL 0x49C    
+               293            0248           FA8000                        ULNK           
+               294            024A           060000                        RETURN         
+               295            024C           FA0000                        LNK #0x0       
+               296            024E           2404F0                        MOV #0x404F, W0
+               297            0250           883B00                        MOV W0, NVMCON 
+               298            0252           A8C761                        BSET 0x761, #6 
+               299            0254           200557                        MOV #0x55, W7  
+               300            0256           883B37                        MOV W7, NVMKEY 
+               301            0258           200AA7                        MOV #0xAA, W7  
+               302            025A           883B37                        MOV W7, NVMKEY 
+               303            025C           A8E761                        BSET 0x761, #7 
+               304            025E           000000                        NOP            
+               305            0260           000000                        NOP            
+               306            0262           BFC761                        MOV.B 0x761, WREG
+               307            0264           B3C801                        MOV #0x80, W1  
+               308            0266           604001                        AND.B W0, W1, W0
+               309            0268           E00400                        CP0.B W0       
+               310            026A           3AFFFB                        BRA NZ, 0x262  
+               311            026C           A88AD3                        BSET 0xAD3, #4 
+               312            026E           A9AAD3                        BCLR 0xAD3, #5 
+               313            0270           A9CAD3                        BCLR 0xAD3, #6 
+               314            0272           A9EAD3                        BCLR 0xAD3, #7 
+               315            0274           07FFA1                        RCALL 0x1B8    
+               316            0276           FA8000                        ULNK           
+               317            0278           060000                        RETURN         
+               318            027A           FA0006                        LNK #0x6       
+               319            027C           240420                        MOV #0x4042, W0
+               320            027E           883B00                        MOV W0, NVMCON 
+               321            0280           BFCA0E                        MOV.B 0xA0E, WREG
+               322            0282           FB8000                        ZE W0, W0      
+               323            0284           200001                        MOV #0x0, W1   
+               324            0286           DD01C0                        SL W0, #0, W3  
+               325            0288           200002                        MOV #0x0, W2   
+               326            028A           805080                        MOV 0xA10, W0  
+               327            028C           200001                        MOV #0x0, W1   
+               328            028E           411F00                        ADD W2, W0, [W14++]
+               329            0290           499701                        ADDC W3, W1, [W14--]
+               330            0292           EB0000                        CLR W0         
+               331            0294           980720                        MOV W0, [W14+4]
+               332            0296           370014                        BRA 0x2C0      
+               333            0298           A8C761                        BSET 0x761, #6 
+               334            029A           200557                        MOV #0x55, W7  
+               335            029C           883B37                        MOV W7, NVMKEY 
+               336            029E           200AA7                        MOV #0xAA, W7  
+               337            02A0           883B37                        MOV W7, NVMKEY 
+               338            02A2           A8E761                        BSET 0x761, #7 
+               339            02A4           000000                        NOP            
+               340            02A6           000000                        NOP            
+               341            02A8           BFC761                        MOV.B 0x761, WREG
+               342            02AA           B3C801                        MOV #0x80, W1  
+               343            02AC           604001                        AND.B W0, W1, W0
+               344            02AE           E00400                        CP0.B W0       
+               345            02B0           3AFFFB                        BRA NZ, 0x2A8  
+               346            02B2           200400                        MOV #0x40, W0  
+               347            02B4           200001                        MOV #0x0, W1   
+               348            02B6           400F1E                        ADD W0, [W14], [W14]
+               349            02B8           48975E                        ADDC W1, [++W14], [W14--]
+               350            02BA           90002E                        MOV [W14+4], W0
+               351            02BC           E80000                        INC W0, W0     
+               352            02BE           980720                        MOV W0, [W14+4]
+               353            02C0           BFCA0F                        MOV.B 0xA0F, WREG
+               354            02C2           FB8080                        ZE W0, W1      
+               355            02C4           90002E                        MOV [W14+4], W0
+               356            02C6           508F80                        SUB W1, W0, [W15]
+               357            02C8           3EFFE7                        BRA GTU, 0x298 
+               358            02CA           A88AD3                        BSET 0xAD3, #4 
+               359            02CC           A9AAD3                        BCLR 0xAD3, #5 
+               360            02CE           A9CAD3                        BCLR 0xAD3, #6 
+               361            02D0           A9EAD3                        BCLR 0xAD3, #7 
+               362            02D2           07FF72                        RCALL 0x1B8    
+               363            02D4           FA8000                        ULNK           
+               364            02D6           060000                        RETURN         
+               365            02D8           FA0004                        LNK #0x4       
+               366            02DA           BFCA0E                        MOV.B 0xA0E, WREG
+               367            02DC           FB8000                        ZE W0, W0      
+               368            02DE           880190                        MOV W0, TBLPAG 
+               369            02E0           240000                        MOV #0x4000, W0
+               370            02E2           883B00                        MOV W0, NVMCON 
+               371            02E4           805090                        MOV 0xA12, W0  
+               372            02E6           980710                        MOV W0, [W14+2]
+               373            02E8           805080                        MOV 0xA10, W0  
+               374            02EA           780F00                        MOV W0, [W14]  
+               375            02EC           90009E                        MOV [W14+2], W1
+               376            02EE           78001E                        MOV [W14], W0  
+               377            02F0           BB0801                        TBLWTL W1, [W0]
+               378            02F2           A8C761                        BSET 0x761, #6 
+               379            02F4           200550                        MOV #0x55, W0  
+               380            02F6           883B30                        MOV W0, NVMKEY 
+               381            02F8           200AA0                        MOV #0xAA, W0  
+               382            02FA           883B30                        MOV W0, NVMKEY 
+               383            02FC           A8E761                        BSET 0x761, #7 
+               384            02FE           000000                        NOP            
+               385            0300           000000                        NOP            
+               386            0302           980710                        MOV W0, [W14+2]
+               387            0304           BFC761                        MOV.B 0x761, WREG
+               388            0306           B3C801                        MOV #0x80, W1  
+               389            0308           604001                        AND.B W0, W1, W0
+               390            030A           E00400                        CP0.B W0       
+               391            030C           3AFFFB                        BRA NZ, 0x304  
+               392            030E           A88AD3                        BSET 0xAD3, #4 
+               393            0310           A9AAD3                        BCLR 0xAD3, #5 
+               394            0312           A9CAD3                        BCLR 0xAD3, #6 
+               395            0314           A9EAD3                        BCLR 0xAD3, #7 
+               396            0316           07FF50                        RCALL 0x1B8    
+               397            0318           FA8000                        ULNK           
+               398            031A           060000                        RETURN         
+               399            031C           FA0004                        LNK #0x4       
+               400            031E           BFCA0E                        MOV.B 0xA0E, WREG
+               401            0320           FB8000                        ZE W0, W0      
+               402            0322           880190                        MOV W0, TBLPAG 
+               403            0324           240030                        MOV #0x4003, W0
+               404            0326           883B00                        MOV W0, NVMCON 
+               405            0328           805090                        MOV 0xA12, W0  
+               406            032A           980710                        MOV W0, [W14+2]
+               407            032C           805080                        MOV 0xA10, W0  
+               408            032E           780F00                        MOV W0, [W14]  
+               409            0330           90009E                        MOV [W14+2], W1
+               410            0332           78001E                        MOV [W14], W0  
+               411            0334           BB0801                        TBLWTL W1, [W0]
+               412            0336           BFCA0F                        MOV.B 0xA0F, WREG
+               413            0338           FB8000                        ZE W0, W0      
+               414            033A           980710                        MOV W0, [W14+2]
+               415            033C           90009E                        MOV [W14+2], W1
+               416            033E           78001E                        MOV [W14], W0  
+               417            0340           BBC801                        TBLWTH.B W1, [W0]
+               418            0342           A8C761                        BSET 0x761, #6 
+               419            0344           200550                        MOV #0x55, W0  
+               420            0346           883B30                        MOV W0, NVMKEY 
+               421            0348           200AA0                        MOV #0xAA, W0  
+               422            034A           883B30                        MOV W0, NVMKEY 
+               423            034C           A8E761                        BSET 0x761, #7 
+               424            034E           000000                        NOP            
+               425            0350           000000                        NOP            
+               426            0352           980710                        MOV W0, [W14+2]
+               427            0354           BFC761                        MOV.B 0x761, WREG
+               428            0356           B3C801                        MOV #0x80, W1  
+               429            0358           604001                        AND.B W0, W1, W0
+               430            035A           E00400                        CP0.B W0       
+               431            035C           3AFFFB                        BRA NZ, 0x354  
+               432            035E           78001E                        MOV [W14], W0  
+               433            0360           BA0010                        TBLRDL [W0], W0
+               434            0362           980710                        MOV W0, [W14+2]
+               435            0364           A98AD3                        BCLR 0xAD3, #4 
+               436            0366           A8AAD3                        BSET 0xAD3, #5 
+               437            0368           A9CAD3                        BCLR 0xAD3, #6 
+               438            036A           A9EAD3                        BCLR 0xAD3, #7 
+               439            036C           805091                        MOV 0xA12, W1  
+               440            036E           90001E                        MOV [W14+2], W0
+               441            0370           508F80                        SUB W1, W0, [W15]
+               442            0372           3A000C                        BRA NZ, 0x38C  
+               443            0374           78001E                        MOV [W14], W0  
+               444            0376           BAC010                        TBLRDH.B [W0], W0
+               445            0378           980710                        MOV W0, [W14+2]
+               446            037A           90001E                        MOV [W14+2], W0
+               447            037C           784080                        MOV.B W0, W1   
+               448            037E           BFCA0F                        MOV.B 0xA0F, WREG
+               449            0380           50CF80                        SUB.B W1, W0, [W15]
+               450            0382           3A0004                        BRA NZ, 0x38C  
+               451            0384           A88AD3                        BSET 0xAD3, #4 
+               452            0386           A9AAD3                        BCLR 0xAD3, #5 
+               453            0388           A9CAD3                        BCLR 0xAD3, #6 
+               454            038A           A9EAD3                        BCLR 0xAD3, #7 
+               455            038C           07FF15                        RCALL 0x1B8    
+               456            038E           FA8000                        ULNK           
+               457            0390           060000                        RETURN         
+               458            0392           240010                        MOV #0x4001, W0
+               459            0394           883B00                        MOV W0, NVMCON 
+               460            0396           20A0C5                        MOV #0xA0C, W5 
+               461            0398           EB0000                        CLR W0         
+               462            039A           904425                        MOV.B [W5+2], W8
+               463            039C           9004A5                        MOV [W5+4], W9 
+               464            039E           428366                        ADD W5, #0x6, W6
+               465            03A0           880198                        MOV W8, TBLPAG 
+               466            03A2           780389                        MOV W9, W7     
+               467            03A4           200100                        MOV #0x10, W0  
+               468            03A6           BB0BB6                        TBLWTL [W6++], [W7]
+               469            03A8           BBDBB6                        TBLWTH.B [W6++], [W7++]
+               470            03AA           BBEBB6                        TBLWTH.B [W6++], [++W7]
+               471            03AC           BB1BB6                        TBLWTL [W6++], [W7++]
+               472            03AE           BB0BB6                        TBLWTL [W6++], [W7]
+               473            03B0           BBDBB6                        TBLWTH.B [W6++], [W7++]
+               474            03B2           BBEBB6                        TBLWTH.B [W6++], [++W7]
+               475            03B4           BB1BB6                        TBLWTL [W6++], [W7++]
+               476            03B6           E90000                        DEC W0, W0     
+               477            03B8           3AFFF6                        BRA NZ, 0x3A6  
+               478            03BA           090005                        REPEAT #0x5    
+               479            03BC           780B46                        MOV [--W6], [W6]
+               480            03BE           200080                        MOV #0x8, W0   
+               481            03C0           538380                        SUB W7, W0, W7 
+               482            03C2           BB0BB6                        TBLWTL [W6++], [W7]
+               483            03C4           A8C761                        BSET 0x761, #6 
+               484            03C6           200557                        MOV #0x55, W7  
+               485            03C8           883B37                        MOV W7, NVMKEY 
+               486            03CA           200AA7                        MOV #0xAA, W7  
+               487            03CC           883B37                        MOV W7, NVMKEY 
+               488            03CE           A8E761                        BSET 0x761, #7 
+               489            03D0           000000                        NOP            
+               490            03D2           000000                        NOP            
+               491            03D4           803B00                        MOV NVMCON, W0 
+               492            03D6           A3F000                        BTST.C W0, #15 
+               493            03D8           31FFFD                        BRA C, 0x3D4   
+               494            03DA           070005                        RCALL 0x3E6    
+               495            03DC           DD004C                        SL W0, #12, W0 
+               496            03DE           20AD21                        MOV #0xAD2, W1 
+               497            03E0           780880                        MOV W0, [W1]   
+               498            03E2           07FEEA                        RCALL 0x1B8    
+               499            03E4           060000                        RETURN         
+               500            03E6           20A0C0                        MOV #0xA0C, W0 
+               501            03E8           EB0080                        CLR W1         
+               502            03EA           904420                        MOV.B [W0+2], W8
+               503            03EC           9004A0                        MOV [W0+4], W9 
+               504            03EE           2000C7                        MOV #0xC, W7   
+               505            03F0           4001E6                        ADD W0, #0x6, W3
+               506            03F2           880198                        MOV W8, TBLPAG 
+               507            03F4           780289                        MOV W9, W5     
+               508            03F6           2001F4                        MOV #0x1F, W4  
+               509            03F8           BA0315                        TBLRDL [W5], W6
+               510            03FA           E13033                        CP W6, [W3++]  
+               511            03FC           3A000B                        BRA NZ, 0x414  
+               512            03FE           BADBB5                        TBLRDH.B [W5++], [W7++]
+               513            0400           BAD3D5                        TBLRDH.B [++W5], [W7--]
+               514            0402           E13033                        CP W6, [W3++]  
+               515            0404           3A0007                        BRA NZ, 0x414  
+               516            0406           BA0335                        TBLRDL [W5++], W6
+               517            0408           E13033                        CP W6, [W3++]  
+               518            040A           3A0004                        BRA NZ, 0x414  
+               519            040C           E90204                        DEC W4, W4     
+               520            040E           3BFFF4                        BRA NN, 0x3F8  
+               521            0410           200010                        MOV #0x1, W0   
+               522            0412           370001                        BRA 0x416      
+               523            0414           200020                        MOV #0x2, W0   
+               524            0416           060000                        RETURN         
+               525            0418           EF2032                        CLR TBLPAG     
+               526            041A           2FFFE7                        MOV #0xFFFE, W7
+               527            041C           370005                        BRA 0x428      
+               528            041E           20A0C0                        MOV #0xA0C, W0 
+               529            0420           9001B0                        MOV [W0+6], W3 
+               530            0422           880193                        MOV W3, TBLPAG 
+               531            0424           9001C0                        MOV [W0+8], W3 
+               532            0426           5183E2                        SUB W3, #0x2, W7
+               533            0428           EB8200                        SETM W4        
+               534            042A           2FFFE6                        MOV #0xFFFE, W6
+               535            042C           20A0C0                        MOV #0xA0C, W0 
+               536            042E           900190                        MOV [W0+2], W3 
+               537            0430           900120                        MOV [W0+4], W2 
+               538            0432           B10012                        SUB #0x1, W2   
+               539            0434           B18003                        SUBB #0x0, W3  
+               540            0436           32000E                        BRA Z, 0x454   
+               541            0438           BA0057                        TBLRDL [++W7], W0
+               542            043A           E78004                        CPSEQ W0, W4   
+               543            043C           370009                        BRA 0x450      
+               544            043E           BAC017                        TBLRDH.B [W7], W0
+               545            0440           E78404                        CPSEQ.B W0, W4 
+               546            0442           370006                        BRA 0x450      
+               547            0444           E13007                        CP W6, W7      
+               548            0446           3AFFF5                        BRA NZ, 0x432  
+               549            0448           800190                        MOV TBLPAG, W0 
+               550            044A           E80000                        INC W0, W0     
+               551            044C           880190                        MOV W0, TBLPAG 
+               552            044E           37FFF1                        BRA 0x432      
+               553            0450           2000F1                        MOV #0xF, W1   
+               554            0452           370001                        BRA 0x456      
+               555            0454           200F01                        MOV #0xF0, W1  
+               556            0456           21A000                        MOV #0x1A00, W0
+               557            0458           700001                        IOR W0, W1, W0 
+               558            045A           20AD23                        MOV #0xAD2, W3 
+               559            045C           781980                        MOV W0, [W3++] 
+               560            045E           200020                        MOV #0x2, W0   
+               561            0460           780980                        MOV W0, [W3]   
+               562            0462           07001C                        RCALL 0x49C    
+               563            0464           060000                        RETURN         
+               564            0466           200331                        MOV #0x33, W1  
+               565            0468           21B000                        MOV #0x1B00, W0
+               566            046A           700001                        IOR W0, W1, W0 
+               567            046C           20AD21                        MOV #0xAD2, W1 
+               568            046E           781880                        MOV W0, [W1++] 
+               569            0470           200020                        MOV #0x2, W0   
+               570            0472           780880                        MOV W0, [W1]   
+               571            0474           070013                        RCALL 0x49C    
+               572            0476           060000                        RETURN         
+               573            0478           07006E                        RCALL 0x556    
+               574            047A           20A0C7                        MOV #0xA0C, W7 
+               575            047C           781B80                        MOV W0, [W7++] 
+               576            047E           20FFF3                        MOV #0xFFF, W3 
+               577            0480           600183                        AND W0, W3, W3 
+               578            0482           E90183                        DEC W3, W3     
+               579            0484           320004                        BRA Z, 0x48E   
+               580            0486           070067                        RCALL 0x556    
+               581            0488           781B80                        MOV W0, [W7++] 
+               582            048A           E90183                        DEC W3, W3     
+               583            048C           3AFFFC                        BRA NZ, 0x486  
+               584            048E           A9E241                        BCLR 0x241, #7 
+               585            0490           205000                        MOV #0x500, W0 
+               586            0492           881210                        MOV W0, SPI1CON1
+               587            0494           EFA248                        SETM SPI1BUF   
+               588            0496           A8E241                        BSET 0x241, #7 
+               589            0498           EFA248                        SETM SPI1BUF   
+               590            049A           060000                        RETURN         
+               591            049C           EF2248                        CLR SPI1BUF    
+               592            049E           EF2240                        CLR SPI1STAT   
+               593            04A0           000000                        NOP            
+               594            04A2           A8E241                        BSET 0x241, #7 
+               595            04A4           EF2248                        CLR SPI1BUF    
+               596            04A6           000000                        NOP            
+               597            04A8           EF2240                        CLR SPI1STAT   
+               598            04AA           09001D                        REPEAT #0x1D   
+               599            04AC           000000                        NOP            
+               600            04AE           204000                        MOV #0x400, W0 
+               601            04B0           881210                        MOV W0, SPI1CON1
+               602            04B2           A94085                        BCLR 0x85, #2  
+               603            04B4           A8E241                        BSET 0x241, #7 
+               604            04B6           20AD27                        MOV #0xAD2, W7 
+               605            04B8           780037                        MOV [W7++], W0 
+               606            04BA           881240                        MOV W0, SPI1BUF
+               607            04BC           780037                        MOV [W7++], W0 
+               608            04BE           070051                        RCALL 0x562    
+               609            04C0           20AD20                        MOV #0xAD2, W0 
+               610            04C2           900290                        MOV [W0+2], W5 
+               611            04C4           E98285                        DEC2 W5, W5    
+               612            04C6           320038                        BRA Z, 0x538   
+               613            04C8           904010                        MOV.B [W0+1], W0
+               614            04CA           B240F0                        AND.B #0xF, W0 
+               615            04CC           B3C011                        MOV #0x1, W1   
+               616            04CE           E10401                        CP.B W0, W1    
+               617            04D0           3A000A                        BRA NZ, 0x4E6  
+               618            04D2           20A0C0                        MOV #0xA0C, W0 
+               619            04D4           9040A0                        MOV.B [W0+2], W1
+               620            04D6           FB8081                        ZE W1, W1      
+               621            04D8           880191                        MOV W1, TBLPAG 
+               622            04DA           9003A0                        MOV [W0+4], W7 
+               623            04DC           BA0037                        TBLRDL [W7++], W0
+               624            04DE           070041                        RCALL 0x562    
+               625            04E0           E90285                        DEC W5, W5     
+               626            04E2           3AFFFC                        BRA NZ, 0x4DC  
+               627            04E4           370029                        BRA 0x538      
+               628            04E6           B3C021                        MOV #0x2, W1   
+               629            04E8           E10401                        CP.B W0, W1    
+               630            04EA           3A002F                        BRA NZ, 0x54A  
+               631            04EC           20A0C0                        MOV #0xA0C, W0 
+               632            04EE           900290                        MOV [W0+2], W5 
+               633            04F0           D10305                        LSR W5, W6     
+               634            04F2           B00040                        ADD #0x4, W0   
+               635            04F4           784090                        MOV.B [W0], W1 
+               636            04F6           780401                        MOV W1, W8     
+               637            04F8           7800D0                        MOV [++W0], W1 
+               638            04FA           780381                        MOV W1, W7     
+               639            04FC           E90005                        DEC W5, W0     
+               640            04FE           320015                        BRA Z, 0x52A   
+               641            0500           200001                        MOV #0x0, W1   
+               642            0502           880198                        MOV W8, TBLPAG 
+               643            0504           000000                        NOP            
+               644            0506           BA0897                        TBLRDL [W7], [W1]
+               645            0508           07002C                        RCALL 0x562    
+               646            050A           BAD897                        TBLRDH.B [W7], [W1++]
+               647            050C           B00027                        ADD #0x2, W7   
+               648            050E           B08008                        ADDC #0x0, W8  
+               649            0510           880198                        MOV W8, TBLPAG 
+               650            0512           000000                        NOP            
+               651            0514           BAD097                        TBLRDH.B [W7], [W1--]
+               652            0516           070025                        RCALL 0x562    
+               653            0518           BA0017                        TBLRDL [W7], W0
+               654            051A           070023                        RCALL 0x562    
+               655            051C           B00027                        ADD #0x2, W7   
+               656            051E           B08008                        ADDC #0x0, W8  
+               657            0520           880198                        MOV W8, TBLPAG 
+               658            0522           E90306                        DEC W6, W6     
+               659            0524           3AFFEE                        BRA NZ, 0x502  
+               660            0526           A60005                        BTSS W5, #0    
+               661            0528           370007                        BRA 0x538      
+               662            052A           880198                        MOV W8, TBLPAG 
+               663            052C           000000                        NOP            
+               664            052E           BA0017                        TBLRDL [W7], W0
+               665            0530           070018                        RCALL 0x562    
+               666            0532           BAC017                        TBLRDH.B [W7], W0
+               667            0534           FB8000                        ZE W0, W0      
+               668            0536           070015                        RCALL 0x562    
+               669            0538           FE6000                        CLRWDT         
+               670            053A           AE4085                        BTSS 0x85, #2  
+               671            053C           37FFFD                        BRA 0x538      
+               672            053E           A94085                        BCLR 0x85, #2  
+               673            0540           A9E241                        BCLR 0x241, #7 
+               674            0542           A86243                        BSET 0x243, #3 
+               675            0544           A8E241                        BSET 0x241, #7 
+               676            0546           801241                        MOV SPI1BUF, W1
+               677            0548           060000                        RETURN         
+               678            054A           B3C0C1                        MOV #0xC, W1   
+               679            054C           E10401                        CP.B W0, W1    
+               680            054E           3AFFF4                        BRA NZ, 0x538  
+               681            0550           780037                        MOV [W7++], W0 
+               682            0552           070007                        RCALL 0x562    
+               683            0554           37FFF1                        BRA 0x538      
+               684            0556           FE6000                        CLRWDT         
+               685            0558           AE4085                        BTSS 0x85, #2  
+               686            055A           37FFFD                        BRA 0x556      
+               687            055C           A94085                        BCLR 0x85, #2  
+               688            055E           801240                        MOV SPI1BUF, W0
+               689            0560           060000                        RETURN         
+               690            0562           781F81                        MOV W1, [W15++]
+               691            0564           FE6000                        CLRWDT         
+               692            0566           AE4085                        BTSS 0x85, #2  
+               693            0568           37FFFD                        BRA 0x564      
+               694            056A           AE4085                        BTSS 0x85, #2  
+               695            056C           37FFFB                        BRA 0x564      
+               696            056E           A94085                        BCLR 0x85, #2  
+               697            0570           801241                        MOV SPI1BUF, W1
+               698            0572           881240                        MOV W0, SPI1BUF
+               699            0574           7800CF                        MOV [--W15], W1
+               700            0576           060000                        RETURN         
+               701            0578           800210                        MOV SR, W0     
+               702            057A           B30A00                        IOR #0xA0, W0  
+               703            057C           880210                        MOV W0, SR     
+               704            057E           20C000                        MOV #0xC00, W0 
+               705            0580           881210                        MOV W0, SPI1CON1
+               706            0582           A94085                        BCLR 0x85, #2  
+               707            0584           EF20A8                        CLR IPC2       
+               708            0586           A800A9                        BSET 0xA9, #0  
+               709            0588           A84095                        BSET 0x95, #2  
+               710            058A           280000                        MOV #0x8000, W0
+               711            058C           881200                        MOV W0, SPI1STAT
+               712            058E           EF2762                        CLR 0x762      
+               713            0590           EF2764                        CLR 0x764      
+               714            0592           060000                        RETURN         
+               715            0594           FA000C                        LNK #0xC       
+               716            0596           B80060                        MUL.UU W0, #0, W0
+               717            0598           980720                        MOV W0, [W14+4]
+               718            059A           980731                        MOV W1, [W14+6]
+               719            059C           B80060                        MUL.UU W0, #0, W0
+               720            059E           980740                        MOV W0, [W14+8]
+               721            05A0           980751                        MOV W1, [W14+10]
+               722            05A2           805070                        MOV 0xA0E, W0  
+               723            05A4           DE0048                        LSR W0, #8, W0 
+               724            05A6           60406F                        AND.B W0, #0xF, W0
+               725            05A8           784F00                        MOV.B W0, [W14]
+               726            05AA           805070                        MOV 0xA0E, W0  
+               727            05AC           DE004C                        LSR W0, #12, W0
+               728            05AE           FB8000                        ZE W0, W0      
+               729            05B0           8856E0                        MOV W0, 0xADC  
+               730            05B2           470064                        ADD W14, #0x4, W0
+               731            05B4           E88080                        INC2 W0, W1    
+               732            05B6           BFCA0E                        MOV.B 0xA0E, WREG
+               733            05B8           784880                        MOV.B W0, [W1] 
+               734            05BA           805080                        MOV 0xA10, W0  
+               735            05BC           B80161                        MUL.UU W0, #1, W2
+               736            05BE           90002E                        MOV [W14+4], W0
+               737            05C0           9000BE                        MOV [W14+6], W1
+               738            05C2           710000                        IOR W2, W0, W0 
+               739            05C4           718081                        IOR W3, W1, W1 
+               740            05C6           980720                        MOV W0, [W14+4]
+               741            05C8           980731                        MOV W1, [W14+6]
+               742            05CA           470068                        ADD W14, #0x8, W0
+               743            05CC           E88080                        INC2 W0, W1    
+               744            05CE           805090                        MOV 0xA12, W0  
+               745            05D0           780880                        MOV W0, [W1]   
+               746            05D2           8050A0                        MOV 0xA14, W0  
+               747            05D4           B80161                        MUL.UU W0, #1, W2
+               748            05D6           90004E                        MOV [W14+8], W0
+               749            05D8           9000DE                        MOV [W14+10], W1
+               750            05DA           710000                        IOR W2, W0, W0 
+               751            05DC           718081                        IOR W3, W1, W1 
+               752            05DE           980740                        MOV W0, [W14+8]
+               753            05E0           980751                        MOV W1, [W14+10]
+               754            05E2           90014E                        MOV [W14+8], W2
+               755            05E4           9001DE                        MOV [W14+10], W3
+               756            05E6           90002E                        MOV [W14+4], W0
+               757            05E8           9000BE                        MOV [W14+6], W1
+               758            05EA           78421E                        MOV.B [W14], W4
+               759            05EC           07002E                        RCALL 0x64A    
+               760            05EE           980710                        MOV W0, [W14+2]
+               761            05F0           90001E                        MOV [W14+2], W0
+               762            05F2           FA8000                        ULNK           
+               763            05F4           060000                        RETURN         
+               764            05F6           FA0006                        LNK #0x6       
+               765            05F8           EB0000                        CLR W0         
+               766            05FA           980710                        MOV W0, [W14+2]
+               767            05FC           370020                        BRA 0x63E      
+               768            05FE           90001E                        MOV [W14+2], W0
+               769            0600           DD0048                        SL W0, #8, W0  
+               770            0602           980720                        MOV W0, [W14+4]
+               771            0604           B3C080                        MOV #0x8, W0   
+               772            0606           784F00                        MOV.B W0, [W14]
+               773            0608           37000E                        BRA 0x626      
+               774            060A           90002E                        MOV [W14+4], W0
+               775            060C           E00000                        CP0 W0         
+               776            060E           3D0007                        BRA GE, 0x61E  
+               777            0610           90002E                        MOV [W14+4], W0
+               778            0612           400000                        ADD W0, W0, W0 
+               779            0614           780080                        MOV W0, W1     
+               780            0616           210210                        MOV #0x1021, W0
+               781            0618           688000                        XOR W1, W0, W0 
+               782            061A           980720                        MOV W0, [W14+4]
+               783            061C           370003                        BRA 0x624      
+               784            061E           90002E                        MOV [W14+4], W0
+               785            0620           400000                        ADD W0, W0, W0 
+               786            0622           980720                        MOV W0, [W14+4]
+               787            0624           E94F1E                        DEC.B [W14], [W14]
+               788            0626           E0041E                        CP0.B [W14]    
+               789            0628           3AFFF0                        BRA NZ, 0x60A  
+               790            062A           FE6000                        CLRWDT         
+               791            062C           90001E                        MOV [W14+2], W0
+               792            062E           400080                        ADD W0, W0, W1 
+               793            0630           2080C0                        MOV #0x80C, W0 
+               794            0632           408000                        ADD W1, W0, W0 
+               795            0634           9000AE                        MOV [W14+4], W1
+               796            0636           780801                        MOV W1, [W0]   
+               797            0638           90001E                        MOV [W14+2], W0
+               798            063A           E80000                        INC W0, W0     
+               799            063C           980710                        MOV W0, [W14+2]
+               800            063E           90009E                        MOV [W14+2], W1
+               801            0640           200FF0                        MOV #0xFF, W0  
+               802            0642           508F80                        SUB W1, W0, [W15]
+               803            0644           34FFDC                        BRA LE, 0x5FE  
+               804            0646           FA8000                        ULNK           
+               805            0648           060000                        RETURN         
+               806            064A           FA0020                        LNK #0x20      
+               807            064C           980770                        MOV W0, [W14+14]
+               808            064E           980F01                        MOV W1, [W14+16]
+               809            0650           980F12                        MOV W2, [W14+18]
+               810            0652           980F23                        MOV W3, [W14+20]
+               811            0654           985764                        MOV.B W4, [W14+22]
+               812            0656           EB8000                        SETM W0        
+               813            0658           980750                        MOV W0, [W14+10]
+               814            065A           EB0000                        CLR W0         
+               815            065C           980740                        MOV W0, [W14+8]
+               816            065E           90017E                        MOV [W14+14], W2
+               817            0660           90098E                        MOV [W14+16], W3
+               818            0662           200000                        MOV #0x0, W0   
+               819            0664           200011                        MOV #0x1, W1   
+               820            0666           400002                        ADD W0, W2, W0 
+               821            0668           488083                        ADDC W1, W3, W1
+               822            066A           200002                        MOV #0x0, W2   
+               823            066C           2FFFF3                        MOV #0xFFFF, W3
+               824            066E           780200                        MOV W0, W4     
+               825            0670           780281                        MOV W1, W5     
+               826            0672           780002                        MOV W2, W0     
+               827            0674           780083                        MOV W3, W1     
+               828            0676           620100                        AND W4, W0, W2 
+               829            0678           628001                        AND W5, W1, W0 
+               830            067A           B80261                        MUL.UU W0, #1, W4
+               831            067C           980F64                        MOV W4, [W14+28]
+               832            067E           980F75                        MOV W5, [W14+30]
+               833            0680           90086E                        MOV [W14+28], W0
+               834            0682           9008FE                        MOV [W14+30], W1
+               835            0684           DD00C0                        SL W0, #0, W1  
+               836            0686           200000                        MOV #0x0, W0   
+               837            0688           980F60                        MOV W0, [W14+28]
+               838            068A           980F71                        MOV W1, [W14+30]
+               839            068C           90086E                        MOV [W14+28], W0
+               840            068E           9008FE                        MOV [W14+30], W1
+               841            0690           B81261                        MUL.UU W2, #1, W4
+               842            0692           980F64                        MOV W4, [W14+28]
+               843            0694           980F75                        MOV W5, [W14+30]
+               844            0696           90096E                        MOV [W14+28], W2
+               845            0698           9009FE                        MOV [W14+30], W3
+               846            069A           700002                        IOR W0, W2, W0 
+               847            069C           708083                        IOR W1, W3, W1 
+               848            069E           980710                        MOV W0, [W14+2]
+               849            06A0           980721                        MOV W1, [W14+4]
+               850            06A2           370046                        BRA 0x730      
+               851            06A4           90081E                        MOV [W14+18], W0
+               852            06A6           9008AE                        MOV [W14+20], W1
+               853            06A8           400100                        ADD W0, W0, W2 
+               854            06AA           488181                        ADDC W1, W1, W3
+               855            06AC           90007E                        MOV [W14+14], W0
+               856            06AE           90088E                        MOV [W14+16], W1
+               857            06B0           400102                        ADD W0, W2, W2 
+               858            06B2           488183                        ADDC W1, W3, W3
+               859            06B4           90001E                        MOV [W14+2], W0
+               860            06B6           9000AE                        MOV [W14+4], W1
+               861            06B8           510F80                        SUB W2, W0, [W15]
+               862            06BA           598F81                        SUBB W3, W1, [W15]
+               863            06BC           39001A                        BRA NC, 0x6F2  
+               864            06BE           90011E                        MOV [W14+2], W2
+               865            06C0           9001AE                        MOV [W14+4], W3
+               866            06C2           90007E                        MOV [W14+14], W0
+               867            06C4           90088E                        MOV [W14+16], W1
+               868            06C6           510000                        SUB W2, W0, W0 
+               869            06C8           598081                        SUBB W3, W1, W1
+               870            06CA           D10081                        LSR W1, W1     
+               871            06CC           D38000                        RRC W0, W0     
+               872            06CE           980730                        MOV W0, [W14+6]
+               873            06D0           90011E                        MOV [W14+2], W2
+               874            06D2           9001AE                        MOV [W14+4], W3
+               875            06D4           200000                        MOV #0x0, W0   
+               876            06D6           200011                        MOV #0x1, W1   
+               877            06D8           400002                        ADD W0, W2, W0 
+               878            06DA           488083                        ADDC W1, W3, W1
+               879            06DC           980710                        MOV W0, [W14+2]
+               880            06DE           980721                        MOV W1, [W14+4]
+               881            06E0           90003E                        MOV [W14+6], W0
+               882            06E2           B80161                        MUL.UU W0, #1, W2
+               883            06E4           90081E                        MOV [W14+18], W0
+               884            06E6           9008AE                        MOV [W14+20], W1
+               885            06E8           500002                        SUB W0, W2, W0 
+               886            06EA           588083                        SUBB W1, W3, W1
+               887            06EC           980F10                        MOV W0, [W14+18]
+               888            06EE           980F21                        MOV W1, [W14+20]
+               889            06F0           370005                        BRA 0x6FC      
+               890            06F2           90099E                        MOV [W14+18], W3
+               891            06F4           980733                        MOV W3, [W14+6]
+               892            06F6           B80060                        MUL.UU W0, #0, W0
+               893            06F8           980F10                        MOV W0, [W14+18]
+               894            06FA           980F21                        MOV W1, [W14+20]
+               895            06FC           8056E0                        MOV 0xADC, W0  
+               896            06FE           E00000                        CP0 W0         
+               897            0700           3A0007                        BRA NZ, 0x710  
+               898            0702           9001DE                        MOV [W14+10], W3
+               899            0704           90013E                        MOV [W14+6], W2
+               900            0706           90007E                        MOV [W14+14], W0
+               901            0708           90088E                        MOV [W14+16], W1
+               902            070A           070027                        RCALL 0x75A    
+               903            070C           980750                        MOV W0, [W14+10]
+               904            070E           370006                        BRA 0x71C      
+               905            0710           9001CE                        MOV [W14+8], W3
+               906            0712           90013E                        MOV [W14+6], W2
+               907            0714           90007E                        MOV [W14+14], W0
+               908            0716           90088E                        MOV [W14+16], W1
+               909            0718           070047                        RCALL 0x7A8    
+               910            071A           980740                        MOV W0, [W14+8]
+               911            071C           90003E                        MOV [W14+6], W0
+               912            071E           200001                        MOV #0x0, W1   
+               913            0720           400100                        ADD W0, W0, W2 
+               914            0722           488181                        ADDC W1, W1, W3
+               915            0724           90007E                        MOV [W14+14], W0
+               916            0726           90088E                        MOV [W14+16], W1
+               917            0728           410000                        ADD W2, W0, W0 
+               918            072A           498081                        ADDC W3, W1, W1
+               919            072C           980770                        MOV W0, [W14+14]
+               920            072E           980F01                        MOV W1, [W14+16]
+               921            0730           90081E                        MOV [W14+18], W0
+               922            0732           9008AE                        MOV [W14+20], W1
+               923            0734           500FE0                        SUB W0, #0x0, [W15]
+               924            0736           588FE0                        SUBB W1, #0x0, [W15]
+               925            0738           3AFFB5                        BRA NZ, 0x6A4  
+               926            073A           8056E0                        MOV 0xADC, W0  
+               927            073C           E00000                        CP0 W0         
+               928            073E           3A0005                        BRA NZ, 0x74A  
+               929            0740           90005E                        MOV [W14+10], W0
+               930            0742           B80261                        MUL.UU W0, #1, W4
+               931            0744           980F44                        MOV W4, [W14+24]
+               932            0746           980F55                        MOV W5, [W14+26]
+               933            0748           370004                        BRA 0x752      
+               934            074A           90004E                        MOV [W14+8], W0
+               935            074C           B80161                        MUL.UU W0, #1, W2
+               936            074E           980F42                        MOV W2, [W14+24]
+               937            0750           980F53                        MOV W3, [W14+26]
+               938            0752           90084E                        MOV [W14+24], W0
+               939            0754           9008DE                        MOV [W14+26], W1
+               940            0756           FA8000                        ULNK           
+               941            0758           060000                        RETURN         
+               942            075A           200326                        MOV #0x32, W6  
+               943            075C           780B01                        MOV W1, [W6]   
+               944            075E           780380                        MOV W0, W7     
+               945            0760           2080A6                        MOV #0x80A, W6 
+               946            0762           780B02                        MOV W2, [W6]   
+               947            0764           D5280A                        LSR 0x80A      
+               948            0766           2080C8                        MOV #0x80C, W8 
+               949            0768           200062                        MOV #0x6, W2   
+               950            076A           208006                        MOV #0x800, W6 
+               951            076C           BA1B17                        TBLRDL [W7], [W6++]
+               952            076E           BADB37                        TBLRDH.B [W7++], [W6++]
+               953            0770           BADB57                        TBLRDH.B [++W7], [W6++]
+               954            0772           BA1B37                        TBLRDL [W7++], [W6++]
+               955            0774           208004                        MOV #0x800, W4 
+               956            0776           200035                        MOV #0x3, W5   
+               957            0778           EB0080                        CLR W1         
+               958            077A           FE6000                        CLRWDT         
+               959            077C           FD8003                        SWAP W3        
+               960            077E           784003                        MOV.B W3, W0   
+               961            0780           6848B4                        XOR.B W0, [W4++], [W1]
+               962            0782           EF6001                        CLR.B 0x1      
+               963            0784           D20000                        RLNC W0, W0    
+               964            0786           400008                        ADD W0, W8, W0 
+               965            0788           EB4180                        CLR.B W3       
+               966            078A           698910                        XOR W3, [W0], [W2]
+               967            078C           FD8003                        SWAP W3        
+               968            078E           784003                        MOV.B W3, W0   
+               969            0790           6848B4                        XOR.B W0, [W4++], [W1]
+               970            0792           EF6001                        CLR.B 0x1      
+               971            0794           D20000                        RLNC W0, W0    
+               972            0796           400008                        ADD W0, W8, W0 
+               973            0798           EB4180                        CLR.B W3       
+               974            079A           698910                        XOR W3, [W0], [W2]
+               975            079C           ED200A                        DEC WREG5      
+               976            079E           3AFFED                        BRA NZ, 0x77A  
+               977            07A0           ED280A                        DEC 0x80A      
+               978            07A2           3AFFE3                        BRA NZ, 0x76A  
+               979            07A4           780003                        MOV W3, W0     
+               980            07A6           060000                        RETURN         
+               981            07A8           200326                        MOV #0x32, W6  
+               982            07AA           780B01                        MOV W1, [W6]   
+               983            07AC           780380                        MOV W0, W7     
+               984            07AE           FE6000                        CLRWDT         
+               985            07B0           EB0200                        CLR W4         
+               986            07B2           BA8217                        TBLRDH [W7], W4
+               987            07B4           BA02B7                        TBLRDL [W7++], W5
+               988            07B6           EB0400                        CLR W8         
+               989            07B8           784405                        MOV.B W5, W8   
+               990            07BA           DE2AC8                        LSR W5, #8, W5 
+               991            07BC           420205                        ADD W4, W5, W4 
+               992            07BE           420208                        ADD W4, W8, W4 
+               993            07C0           420183                        ADD W4, W3, W3 
+               994            07C2           E90102                        DEC W2, W2     
+               995            07C4           3AFFF4                        BRA NZ, 0x7AE  
+               996            07C6           780003                        MOV W3, W0     
+               997            07C8           060000                        RETURN         
+               998            07CA           000ADA                        NOP            
+               999            07CC           000002                        NOP            
+               1000           07CE           000000                        NOP            
+               1001           07D0           000A0C                        NOP            
+               1002           07D2           0000CE                        NOP            
+               1003           07D4           000000                        NOP            
+               1004           07D6           000ADC                        NOP            
+               1005           07D8           000002                        NOP            
+               1006           07DA           000002                        NOP            
+               1007           07DC           000000                        NOP            
+               1008           07DE           00080C                        NOP            
+               1009           07E0           000200                        NOP            
+               1010           07E2           000000                        NOP            
+               1011           07E4           000800                        NOP            
+               1012           07E6           00000C                        NOP            
+               1013           07E8           000000                        NOP            
+               1014           07EA           000000                        NOP            
+               1015           07EC           FFFFFF                        NOPR           
+               1016           07EE           FFFFFF                        NOPR           
+               1017           07F0           0000CB                        NOP            
+               1018           07F2           000033                        NOP            
+               1019           07F4           FFFFFF                        NOPR           
+               1020           07F6           FFFFFF                        NOPR           
+               1021           07F8           FFFFFF                        NOPR           
+               1022           07FA           FFFFFF                        NOPR           
+               1023           07FC           FFFFFF                        NOPR           
+               1024           07FE           FFFFFF                        NOPR           
+               1025           0800           FFFFFF                        NOPR           

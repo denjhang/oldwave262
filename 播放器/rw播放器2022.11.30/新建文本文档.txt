@@ -1,0 +1,4 @@
+e:
+cd E:\开源合集\开源 2022.9.14\Denjhang自制项目\oldwave262\播放器\rw播放器2022.11.30
+rw -d COM1 test.vgz
+rw -d COM33 *.vgz

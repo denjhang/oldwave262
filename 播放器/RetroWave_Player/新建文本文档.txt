@@ -1,0 +1,3 @@
+e:
+cd E:\开源合集\开源 2022.9.14\Denjhang自制项目\oldwave262\RetroWave_Player
+rw -d COM1 test.vgz
